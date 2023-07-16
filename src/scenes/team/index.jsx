@@ -7,7 +7,7 @@ import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
 import SecurityOutlinedIcon from "@mui/icons-material/SecurityOutlined";
 import Header from "../../component/Header";
 
-const index = () => {
+const team = () => {
 	const theme = useTheme();
 	const colors = tokens(theme.palette.mode);
 
@@ -102,4 +102,4 @@ const index = () => {
 	);
 };
 
-export default index;
+export default team;
