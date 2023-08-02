@@ -14,18 +14,20 @@ import Line from "./scenes/line";
 import Pie from "./scenes/pie";
 import FAQ from "./scenes/faq/index";
 import Geography from "./scenes/geography";
+import {useState} from "react";
 
 function App() {
 	const [theme, colorMode] = useMode();
+	const [isSidebar, setIsSidebar] = useState(true);
 
 	return (
 		<ColorModeContext.Provider value={colorMode}>
 			<ThemeProvider theme={theme}>
 				<CssBaseline />
 				<div className="app">
-					<SidebarComponent />
+					<SidebarComponent isSidebar={isSidebar} />
 					<main className="content">
-						<Topbar />
+						<Topbar setIsSidebar={setIsSidebar} />
 						<Routes>
 							<Route path="/" element={<Dashboard />} />
 							<Route path="/team" element={<Team />} />
