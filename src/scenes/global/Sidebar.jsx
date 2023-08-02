@@ -4,7 +4,7 @@ import {Box, IconButton, Typography, useTheme} from "@mui/material";
 import {Link} from "react-router-dom";
 import "react-pro-sidebar/dist/css/styles.css";
 import {tokens} from "../../theme";
-import user_profile from "../../assets/user.png";
+import user_profile from "../../assets/user2.png";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
 import ContactsOutlinedIcon from "@mui/icons-material/ContactsOutlined";
@@ -47,6 +47,7 @@ const Sidebar = () => {
 			sx={{
 				"& .pro-sidebar-inner": {
 					background: `${colors.primary[400]} !important`,
+					height: "100%",
 				},
 				"& .pro-icon-wrapper": {
 					backgroundColor: "transparent !important",
