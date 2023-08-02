@@ -48,7 +48,7 @@ const Dashboard = () => {
 				{/* ROW 1 */}
 				<Box
 					gridColumn="span 3"
-					backgroundColor={colors.greenAccent[400]}
+					backgroundColor={colors.primary[400]}
 					display="flex"
 					alignItems="center"
 					justifyContent="center"
@@ -67,7 +67,7 @@ const Dashboard = () => {
 				</Box>
 				<Box
 					gridColumn="span 3"
-					backgroundColor={colors.greenAccent[400]}
+					backgroundColor={colors.primary[400]}
 					display="flex"
 					alignItems="center"
 					justifyContent="center"
@@ -86,7 +86,7 @@ const Dashboard = () => {
 				</Box>
 				<Box
 					gridColumn="span 3"
-					backgroundColor={colors.greenAccent[400]}
+					backgroundColor={colors.primary[400]}
 					display="flex"
 					alignItems="center"
 					justifyContent="center"
@@ -105,7 +105,7 @@ const Dashboard = () => {
 				</Box>
 				<Box
 					gridColumn="span 3"
-					backgroundColor={colors.greenAccent[400]}
+					backgroundColor={colors.primary[400]}
 					display="flex"
 					alignItems="center"
 					justifyContent="center"
